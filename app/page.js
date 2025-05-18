@@ -67,7 +67,7 @@ export default function Home() {
 
   useEffect(() => {
     search("London");
-  }, []);
+  },);
 
   const currentDate = new Date().toLocaleDateString("en-US", {
     weekday: "long",
